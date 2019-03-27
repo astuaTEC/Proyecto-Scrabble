@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto.dir/Dealer/Dealer.cpp.o"
   "CMakeFiles/Proyecto.dir/Estructuras/List.cpp.o"
   "CMakeFiles/Proyecto.dir/Estructuras/Node.cpp.o"
+  "CMakeFiles/Proyecto.dir/Converter/Converter.cpp.o"
+  "CMakeFiles/Proyecto.dir/Converter/Person.cpp.o"
   "Proyecto.pdb"
   "Proyecto"
 )

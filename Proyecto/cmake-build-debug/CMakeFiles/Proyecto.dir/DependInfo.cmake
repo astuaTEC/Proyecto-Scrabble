@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/saymon/CLionProjects/Proyecto/Converter/Converter.cpp" "/home/saymon/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Converter/Converter.cpp.o"
+  "/home/saymon/CLionProjects/Proyecto/Converter/Person.cpp" "/home/saymon/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Converter/Person.cpp.o"
   "/home/saymon/CLionProjects/Proyecto/Dealer/Dealer.cpp" "/home/saymon/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Dealer/Dealer.cpp.o"
   "/home/saymon/CLionProjects/Proyecto/Dealer/Ficha.cpp" "/home/saymon/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Dealer/Ficha.cpp.o"
   "/home/saymon/CLionProjects/Proyecto/Estructuras/List.cpp" "/home/saymon/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/Estructuras/List.cpp.o"
@@ -17,6 +19,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
+  "../include/rapidjson"
   )
 
 # Targets to which this target links.

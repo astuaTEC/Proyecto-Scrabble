@@ -17,15 +17,13 @@ private:
     string letra;
 
 public:
+    Ficha(string, int);
+    Ficha();
 
     void setLetra(string);
     int getValor();
     void setValor(int);
     string getLetra();
-    void setX(int);
-    int getX();
-    void setY(int);
-    int getY();
 
 };
 

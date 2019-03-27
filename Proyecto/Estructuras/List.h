@@ -26,6 +26,7 @@ public:
     T indice(int);
     int getTam();
     void print();
+    void del_all();
     void del_by_position(int);
 
 

@@ -24,7 +24,7 @@ public:
     Dealer();
     ~Dealer();
 
-    List<Ficha> repartir();
+    void repartir(int);
 };
 
 

@@ -65,6 +65,14 @@ void List<T>::del_by_data(T data_)
         cout << "No existe el dato " << endl;
     }
 }
+// Eliminar todos los nodos
+template<typename T>
+void List<T>::del_all()
+{
+    m_head->delete_all();
+    m_head = 0;
+}
+
 template<typename T>
 List<T>::~List() {}
 

@@ -123,6 +123,60 @@ Proyecto/fast:
 	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/build
 .PHONY : Proyecto/fast
 
+Converter/Converter.o: Converter/Converter.cpp.o
+
+.PHONY : Converter/Converter.o
+
+# target to build an object file
+Converter/Converter.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/Converter/Converter.cpp.o
+.PHONY : Converter/Converter.cpp.o
+
+Converter/Converter.i: Converter/Converter.cpp.i
+
+.PHONY : Converter/Converter.i
+
+# target to preprocess a source file
+Converter/Converter.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/Converter/Converter.cpp.i
+.PHONY : Converter/Converter.cpp.i
+
+Converter/Converter.s: Converter/Converter.cpp.s
+
+.PHONY : Converter/Converter.s
+
+# target to generate assembly for a file
+Converter/Converter.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/Converter/Converter.cpp.s
+.PHONY : Converter/Converter.cpp.s
+
+Converter/Person.o: Converter/Person.cpp.o
+
+.PHONY : Converter/Person.o
+
+# target to build an object file
+Converter/Person.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/Converter/Person.cpp.o
+.PHONY : Converter/Person.cpp.o
+
+Converter/Person.i: Converter/Person.cpp.i
+
+.PHONY : Converter/Person.i
+
+# target to preprocess a source file
+Converter/Person.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/Converter/Person.cpp.i
+.PHONY : Converter/Person.cpp.i
+
+Converter/Person.s: Converter/Person.cpp.s
+
+.PHONY : Converter/Person.s
+
+# target to generate assembly for a file
+Converter/Person.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/Converter/Person.cpp.s
+.PHONY : Converter/Person.cpp.s
+
 Dealer/Dealer.o: Dealer/Dealer.cpp.o
 
 .PHONY : Dealer/Dealer.o
@@ -348,6 +402,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto"
 	@echo "... edit_cache"
+	@echo "... Converter/Converter.o"
+	@echo "... Converter/Converter.i"
+	@echo "... Converter/Converter.s"
+	@echo "... Converter/Person.o"
+	@echo "... Converter/Person.i"
+	@echo "... Converter/Person.s"
 	@echo "... Dealer/Dealer.o"
 	@echo "... Dealer/Dealer.i"
 	@echo "... Dealer/Dealer.s"

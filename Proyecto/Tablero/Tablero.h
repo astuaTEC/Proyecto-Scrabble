@@ -10,6 +10,7 @@
 
 using namespace std;
 
+
 class Tablero {
 
 private:
@@ -17,20 +18,31 @@ private:
     Elemento **matriz;
 
     static int nFilas, nCol;
+    static Tablero* instance;
+    Tablero();
 
 public:
 
-    Tablero();
-    void agregar(int, int, string);
+    static Tablero* getInstance();
+
+    void agregar(int, int, string, int);
     void limpiar();
     void recorrer();
+    void borrar(int, int);
 
     int recorrerHorizontal(int, int);
     void recorrerHorizontalAux(int, int);
     int recorrerVertical(int, int);
     void recorrerVerticalAux(int, int);
+    void eliminarVertical(int,int);
+    void eliminarHorizontal(int,int);
 
-    int validarPalabra(string, int);
+    void setRecorrerVertical(int, int);
+    void setRecorrerHorizontal(int, int);
+
+
+
+    int validarPalabra(string, int*, int, int, int);
 
 };
 

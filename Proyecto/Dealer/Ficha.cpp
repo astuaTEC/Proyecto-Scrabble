@@ -26,19 +26,12 @@ string Ficha::getLetra() {
     return this->letra;
 }
 
-void Ficha::setX(int x) {
-    this->x= x;
+Ficha::Ficha(string letra, int valor) {
+    this->letra= letra;
+    this->valor= valor;
 
 }
 
-int Ficha::getX() {
-    return this->x;
-}
+Ficha::Ficha() {
 
-void Ficha::setY(int y) {
-    this->y= y;
-}
-
-int Ficha::getY() {
-    return this->y;
 }

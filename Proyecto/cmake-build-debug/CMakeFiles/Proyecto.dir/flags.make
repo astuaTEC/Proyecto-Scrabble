@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/saymon/CLionProjects/Proyecto/. -I/home/saymon/CLionProjects/Proyecto/include/rapidjson 
 

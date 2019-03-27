@@ -42,20 +42,12 @@ int Elemento::getValorLetra() {
     return this->valorLetra;
 }
 
-void Elemento::setHorizontal(bool b) {
-    this->horizontal= b;
-
+void Elemento::setRecorrido(bool b) {
+    this->recorrido= b;
 }
 
-void Elemento::setVertical(bool b) {
-    this->vertical= b;
-
+bool Elemento::getRecorrido() {
+    return this->recorrido;
 }
 
-bool Elemento::getHorizontal() {
-    return this->horizontal;
-}
 
-bool Elemento::getVertical() {
-    return this->vertical;
-}

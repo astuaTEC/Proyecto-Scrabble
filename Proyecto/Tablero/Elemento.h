@@ -17,8 +17,7 @@ private:
     string letra ="[]";
     int valor;
     int valorLetra;
-    bool horizontal;
-    bool vertical;
+    bool recorrido;
 
 
 public:
@@ -32,12 +31,11 @@ public:
     void setLetra(string);
     void setValorLetra(int);
 
+
     int getValorLetra();
     string getLetra();
-    void setHorizontal(bool);
-    void setVertical(bool);
-    bool getHorizontal();
-    bool getVertical();
+    void setRecorrido(bool);
+    bool getRecorrido();
 
 
 
