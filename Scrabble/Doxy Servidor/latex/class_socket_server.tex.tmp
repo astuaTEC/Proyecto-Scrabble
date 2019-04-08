@@ -1,0 +1,204 @@
+\hypertarget{class_socket_server}{}\section{Socket\+Server Class Reference}
+\label{class_socket_server}\index{Socket\+Server@{Socket\+Server}}
+
+
+Collaboration diagram for Socket\+Server\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_socket_server_afac9dc85dd014e6288551aa49f74f63f}\label{class_socket_server_afac9dc85dd014e6288551aa49f74f63f}} 
+void \hyperlink{class_socket_server_afac9dc85dd014e6288551aa49f74f63f}{run} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_afac9dc85dd014e6288551aa49f74f63f}{Socket\+Server\+::run} se encarga de generar la conexion recibiendo los clientes y generando el servidor y las estructuras para cada cliente trabajando por hilos. \end{DoxyCompactList}\item 
+void \hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{set\+Mensaje} (const char $\ast$msn)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{Socket\+Server\+::set\+Mensaje}. \end{DoxyCompactList}\item 
+void \hyperlink{class_socket_server_ae4effc146578416589a90965cf62aeff}{set\+Mensaje} (int)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{Socket\+Server\+::set\+Mensaje}. \end{DoxyCompactList}\item 
+void \hyperlink{class_socket_server_a4173b1925decf607c9b8e22fde0f4860}{set\+Mensaje} (int, string, bool)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{Socket\+Server\+::set\+Mensaje}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_socket_server_a4124810b1421882f4b0db4b15ca7c421}\label{class_socket_server_a4124810b1421882f4b0db4b15ca7c421}} 
+void \hyperlink{class_socket_server_a4124810b1421882f4b0db4b15ca7c421}{eliminar} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a4124810b1421882f4b0db4b15ca7c421}{Socket\+Server\+::eliminar} elimina los jugadores no aceptados, se equivocan en la clave. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_socket_server_ae4839572209785bc500f226eedc50eac}\label{class_socket_server_ae4839572209785bc500f226eedc50eac}} 
+void \hyperlink{class_socket_server_ae4839572209785bc500f226eedc50eac}{enviar\+Nombres} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_ae4839572209785bc500f226eedc50eac}{Socket\+Server\+::enviar\+Nombres} envia el nombre a cada jugador. \end{DoxyCompactList}\item 
+void \hyperlink{class_socket_server_a489dc768acb273bf5ecf0cbc6ce03c2a}{set\+Clave} (int)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a489dc768acb273bf5ecf0cbc6ce03c2a}{Socket\+Server\+::set\+Clave}. \end{DoxyCompactList}\item 
+void \hyperlink{class_socket_server_af697ba3aeba618b261a6e0ca5d886ba4}{asignar\+Puntajes} (int n, int)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_af697ba3aeba618b261a6e0ca5d886ba4}{Socket\+Server\+::asignar\+Puntajes}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_socket_server_aee01e14a5ab54a22d457d53384d94f48}\label{class_socket_server_aee01e14a5ab54a22d457d53384d94f48}} 
+void \hyperlink{class_socket_server_aee01e14a5ab54a22d457d53384d94f48}{actualizar\+Turno} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_aee01e14a5ab54a22d457d53384d94f48}{Socket\+Server\+::actualizar\+Turno} actuliza el turno de jugadores para ver a quien le corresponde. \end{DoxyCompactList}\item 
+void \hyperlink{class_socket_server_a7b58df0abca111be8732b3e31ddca02f}{set\+Jugadores} (int)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a7b58df0abca111be8732b3e31ddca02f}{Socket\+Server\+::set\+Jugadores}. \end{DoxyCompactList}\item 
+int \hyperlink{class_socket_server_a59028cf53bd76e7ba9903ec7168848a8}{get\+Clave} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a59028cf53bd76e7ba9903ec7168848a8}{Socket\+Server\+::get\+Clave}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_socket_server}{Socket\+Server} $\ast$ \hyperlink{class_socket_server_a7e7db1ae60241a439663f76a2ba2e8e8}{get\+Instance} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_socket_server_a7e7db1ae60241a439663f76a2ba2e8e8}{Socket\+Server\+::get\+Instance}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_socket_server_a3421bbb63ba04a60f7f324f232d433a5}\label{class_socket_server_a3421bbb63ba04a60f7f324f232d433a5}} 
+\hyperlink{class_jugador}{Jugador} {\bfseries jugador1}
+\item 
+\mbox{\Hypertarget{class_socket_server_a3699bf3a921f1d24c2b86df244bf5c6f}\label{class_socket_server_a3699bf3a921f1d24c2b86df244bf5c6f}} 
+\hyperlink{class_jugador}{Jugador} {\bfseries jugador2}
+\item 
+\mbox{\Hypertarget{class_socket_server_a6003599f35b34ccb8e61125d4f7ca5f3}\label{class_socket_server_a6003599f35b34ccb8e61125d4f7ca5f3}} 
+\hyperlink{class_jugador}{Jugador} {\bfseries jugador3}
+\item 
+\mbox{\Hypertarget{class_socket_server_a5077e48bcc782255d179de8ec2fc6dbd}\label{class_socket_server_a5077e48bcc782255d179de8ec2fc6dbd}} 
+\hyperlink{class_jugador}{Jugador} {\bfseries jugador4}
+\item 
+\mbox{\Hypertarget{class_socket_server_a54ba3b5bd53abe88674c30de3d6af062}\label{class_socket_server_a54ba3b5bd53abe88674c30de3d6af062}} 
+string {\bfseries nombre}
+\item 
+\mbox{\Hypertarget{class_socket_server_afadcf528aceb2ce481cba6fbe485e5cb}\label{class_socket_server_afadcf528aceb2ce481cba6fbe485e5cb}} 
+int {\bfseries contador}
+\item 
+\mbox{\Hypertarget{class_socket_server_ad7f244e3bd6ab8d3f9ff152a36dce710}\label{class_socket_server_ad7f244e3bd6ab8d3f9ff152a36dce710}} 
+vector$<$ int $>$ {\bfseries clientes}
+\item 
+\mbox{\Hypertarget{class_socket_server_ade6b7415cd52f7d4731dfc572f8cfd0b}\label{class_socket_server_ade6b7415cd52f7d4731dfc572f8cfd0b}} 
+vector$<$ string $>$ {\bfseries nombres}
+\item 
+\mbox{\Hypertarget{class_socket_server_ad6a799c30977026c24b1787c043681d5}\label{class_socket_server_ad6a799c30977026c24b1787c043681d5}} 
+vector$<$ int $>$ {\bfseries puntuaciones}
+\item 
+\mbox{\Hypertarget{class_socket_server_a6585eff22c5300c4d270faa9794f3ee7}\label{class_socket_server_a6585eff22c5300c4d270faa9794f3ee7}} 
+int {\bfseries n\+Jugadores}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_socket_server_af697ba3aeba618b261a6e0ca5d886ba4}\label{class_socket_server_af697ba3aeba618b261a6e0ca5d886ba4}} 
+\index{Socket\+Server@{Socket\+Server}!asignar\+Puntajes@{asignar\+Puntajes}}
+\index{asignar\+Puntajes@{asignar\+Puntajes}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{asignar\+Puntajes()}{asignarPuntajes()}}
+{\footnotesize\ttfamily void Socket\+Server\+::asignar\+Puntajes (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{puntos }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_af697ba3aeba618b261a6e0ca5d886ba4}{Socket\+Server\+::asignar\+Puntajes}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & cantidad de jugadores en partidas \\
+\hline
+{\em puntos} & puntos obtenidos por la palabra generada e cliente \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_socket_server_a59028cf53bd76e7ba9903ec7168848a8}\label{class_socket_server_a59028cf53bd76e7ba9903ec7168848a8}} 
+\index{Socket\+Server@{Socket\+Server}!get\+Clave@{get\+Clave}}
+\index{get\+Clave@{get\+Clave}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{get\+Clave()}{getClave()}}
+{\footnotesize\ttfamily int Socket\+Server\+::get\+Clave (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_a59028cf53bd76e7ba9903ec7168848a8}{Socket\+Server\+::get\+Clave}. 
+
+\begin{DoxyReturn}{Returns}
+retorna la clave del juego creado por creador de partida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_socket_server_a7e7db1ae60241a439663f76a2ba2e8e8}\label{class_socket_server_a7e7db1ae60241a439663f76a2ba2e8e8}} 
+\index{Socket\+Server@{Socket\+Server}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{get\+Instance()}{getInstance()}}
+{\footnotesize\ttfamily \hyperlink{class_socket_server}{Socket\+Server} $\ast$ Socket\+Server\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_socket_server_a7e7db1ae60241a439663f76a2ba2e8e8}{Socket\+Server\+::get\+Instance}. 
+
+\begin{DoxyReturn}{Returns}
+retorna la instancia de socketserver siendo este un singleton 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_socket_server_a489dc768acb273bf5ecf0cbc6ce03c2a}\label{class_socket_server_a489dc768acb273bf5ecf0cbc6ce03c2a}} 
+\index{Socket\+Server@{Socket\+Server}!set\+Clave@{set\+Clave}}
+\index{set\+Clave@{set\+Clave}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{set\+Clave()}{setClave()}}
+{\footnotesize\ttfamily void Socket\+Server\+::set\+Clave (\begin{DoxyParamCaption}\item[{int}]{clave }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_a489dc768acb273bf5ecf0cbc6ce03c2a}{Socket\+Server\+::set\+Clave}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em clave} & numero de clave creada aleatoriamente \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_socket_server_a7b58df0abca111be8732b3e31ddca02f}\label{class_socket_server_a7b58df0abca111be8732b3e31ddca02f}} 
+\index{Socket\+Server@{Socket\+Server}!set\+Jugadores@{set\+Jugadores}}
+\index{set\+Jugadores@{set\+Jugadores}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{set\+Jugadores()}{setJugadores()}}
+{\footnotesize\ttfamily void Socket\+Server\+::set\+Jugadores (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_a7b58df0abca111be8732b3e31ddca02f}{Socket\+Server\+::set\+Jugadores}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & integer con el numero de jugadores en partida \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}\label{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}} 
+\index{Socket\+Server@{Socket\+Server}!set\+Mensaje@{set\+Mensaje}}
+\index{set\+Mensaje@{set\+Mensaje}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{set\+Mensaje()}{setMensaje()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void Socket\+Server\+::set\+Mensaje (\begin{DoxyParamCaption}\item[{const char $\ast$}]{msn }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{Socket\+Server\+::set\+Mensaje}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msn} & es un const char el cual es el mensaje a enviar a cada cliente \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_socket_server_ae4effc146578416589a90965cf62aeff}\label{class_socket_server_ae4effc146578416589a90965cf62aeff}} 
+\index{Socket\+Server@{Socket\+Server}!set\+Mensaje@{set\+Mensaje}}
+\index{set\+Mensaje@{set\+Mensaje}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{set\+Mensaje()}{setMensaje()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void Socket\+Server\+::set\+Mensaje (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{Socket\+Server\+::set\+Mensaje}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & cantidad de jugadores que estan conectados \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_socket_server_a4173b1925decf607c9b8e22fde0f4860}\label{class_socket_server_a4173b1925decf607c9b8e22fde0f4860}} 
+\index{Socket\+Server@{Socket\+Server}!set\+Mensaje@{set\+Mensaje}}
+\index{set\+Mensaje@{set\+Mensaje}!Socket\+Server@{Socket\+Server}}
+\subsubsection{\texorpdfstring{set\+Mensaje()}{setMensaje()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void Socket\+Server\+::set\+Mensaje (\begin{DoxyParamCaption}\item[{int}]{jugador,  }\item[{string}]{mensaje,  }\item[{bool}]{operacion }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_socket_server_a8558a9d8f423f28c3c0e74eed03657e1}{Socket\+Server\+::set\+Mensaje}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em jugador} & jugador que esta en partida, su descriptor \\
+\hline
+{\em mensaje} & mensaje que se va a enviar \\
+\hline
+{\em operacion} & operacion siendo un booleano parar ver que se debe enviar a los jugadores \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+socketserver.\+h\item 
+socketserver.\+cpp\end{DoxyCompactItemize}
