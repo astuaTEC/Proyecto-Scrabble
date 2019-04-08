@@ -1,0 +1,15 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="QGraphicsRectItem",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Boton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_boton.html",tooltip="The Boton class Esta clase se encarga de proporcionar botones a la interfaz grafica. "];
+  Node6 [label="QObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Controlador",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_controlador.html"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SocketCliente",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_socket_cliente.html",tooltip="The SocketCliente class Permite crear y mantener la conexion con el servidor. "];
+}

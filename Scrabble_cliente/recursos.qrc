@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sonidos">
+        <file>jueputa.wav</file>
+    </qresource>
+</RCC>
